@@ -1,1 +1,102 @@
-1.0
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>X-Men </title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/index.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+  </head>
+  
+  <body>
+    <header class="cabecalho">
+      <img class="logo" src="./src/img/logo.svg" alt="Logo x-men">
+    </header>
+
+    <main class="selecao-de-personagens">
+      <section class="personagens">
+        <h1 class="titulo">SELECT A CHARACTER</h1>
+        <ul class="lista-de-personagens">
+          <li class="personagem selecionado" id="ciclope" data-name="Ciclope" data-description="He has the power to fire optical blasts from an accident that happened to him as a child, but he cannot control">
+            <img
+              src="./src/img/card-ciclope.jpg"
+              alt="Personagem Ciclope"
+            />
+          </li>
+          <li class="personagem" id="jean-grey" data-name="Jean Grey" data-description="Jean Gray is an omega-level mutant and the main avatar of the Phoenix Force, in which she manifests cosmic powers. Telepathy and telekinesis">
+            <img
+              src="./src/img/card-jean-grey.jpg"
+              alt="Personagem Jean Grey"
+            />
+          </li>
+
+          <li class="personagem" id="lince-negra" data-name="BLACK LYNX" data-description="She has the power to pass through solid matter, energy fields, optical blasts, remaining intact, and also has the power to walk on air.">
+            <img
+              src="./src/img/card-lince-negra.jpg"
+              alt="Personagem Lince Negra"
+            />
+          </li>
+
+          <li class="personagem" id="tempestade" data-name="STORM" data-description="It has the power to control the forces of nature, very powerful it can produce lightning, rain, ice, wind, fog, among other effects">
+            <img
+              src="./src/img/card-tempestade.jpg"
+              alt="Personagem Tempestade"
+            />
+          </li>
+
+          <li class="personagem" id="vampira" data-name="VAMPIRE" data-description="She has the power to absorb the vitality and memory of the people she touches or in the case of mutants, the powers and memory, but only temporarily.">
+            <img
+              src="./src/img/card-vampira.jpg"
+              alt="Personagem Vampira"
+            />
+          </li>
+
+          <li class="personagem" id="wolverine" data-name="Wolverine" data-description="Powers. Metal claws. Regenerative Healing Factor, Super Agility.">
+            <img
+              src="./src/img/card-wolverine.jpg"
+              alt="Personagem Wolverine"
+            />
+          </li>
+
+          <li class="personagem" id="noturno" data-name="NOCTURNAL" data-description="He is a mutant who was born with a tail, pointy ears and the power to teleport.">
+            <img
+              src="./src/img/card-noturno.jpg"
+              alt="Personagem Noturno"
+            />
+          </li>
+
+          <li class="personagem" id="magneto" data-name="Magneto" data-description="He has the power of magnetokinesis, that is, controlling metal objects and creating magnetic fields.">
+            <img
+              src="./src/img/card-magneto.jpg"
+              alt="Personagem Magneto"
+            />
+          </li>
+        </ul>
+      </section>
+      <section class="personagem-selecionado">
+        <img
+          class="personagem-grande"
+          src="./src/img/card-ciclope.png"
+          alt="Personagem Selecionado"
+        />
+
+        <div class="informacoes-personagem">
+          <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+          <p class="descricao-personagem" id="descricao-personagem">
+            He has the power to fire optical blasts from an accident that happened to him as a child, but he cannot control
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="./src/js/script.js"></script>
+  </body>
+</html>
